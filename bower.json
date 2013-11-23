@@ -1,0 +1,6 @@
+{
+  "name": "ibp-website",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation"
+  }
+}
