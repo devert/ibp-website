@@ -1,6 +1,6 @@
 {
   "name": "ibp-website",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Website project for Minneapolis band \"in black print\"",
   "main": "index.js",
   "scripts": {
@@ -16,21 +16,22 @@
     "band"
   ],
   "author": "Dennis Evert",
-  "license": "none",
   "bugs": {
     "url": "https://github.com/devert/ibp-website/issues"
   },
   "homepage": "https://github.com/devert/ibp-website",
   "devDependencies": {
+    "assemble": "~0.4.27",
+    "matchdep": "~0.3.0",
     "node-sass": "~0.7.0",
     "grunt": "~0.4.2",
     "grunt-contrib-watch": "~0.5.3",
     "grunt-sass": "~0.8.1",
     "grunt-contrib-connect": "~0.5.0",
     "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-copy": "~0.4.1"
-  },
-  "dependencies": {
-    "matchdep": "~0.3.0"
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-browser-sync": "~0.2.6",
+    "grunt-bump": "0.0.11",
+    "permalinks": "~0.1.9"
   }
 }
